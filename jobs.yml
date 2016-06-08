@@ -1,11 +1,8 @@
 jobs:
-  - name: generate-manifest
+  - name: ecstest1
     type: manifest
     steps:
-      - GET nginx-image
+      - GET mew-image
+      - PUT shipnew
 
-  - name: deploy-service
-    type: ecsDeploy
-    steps:
-      - GET generate-manifest
-      - GET myEcsCluster
+  
