@@ -3,9 +3,4 @@ jobs:
     type: manifest
     steps:
       - GET new-image
-      
-  - name : deployToEcstest1
-    type: ecsDeploy
-    steps:
-      - GET ecstest4
-      - PUT shipnew
+
