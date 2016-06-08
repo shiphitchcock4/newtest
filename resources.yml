@@ -1,15 +1,15 @@
 resources:
-  - name: nginx-image
+  - name: new-image
     type: image
-    integration: pranay-docker
+    integration: ship4-docker
     source:
-      name: "library/nginx"
+      name: "shiphitchcock4/hitchcock4_sample_node"
       isPull: false
       tag: latest
 
-  - name: myEcsCluster
+  - name: shipnew
     type: ecsCluster
-    integration: pranay-ecs
+    integration: ship-awsnew
     source:
-      name : "test-cluster" #name of the cluster we are deploying
+      name : "default" #name of the cluster we are deploying
       region: "us-west-2"
