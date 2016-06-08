@@ -4,5 +4,7 @@ jobs:
     steps:
       - GET new-image
       - PUT shipnew
+      - GET shipnew
+     
 
   
