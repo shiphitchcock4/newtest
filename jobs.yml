@@ -1,5 +1,5 @@
 jobs:
-  - name: ecstest5
+  - name: ecstest6
     type: manifest
     steps:
       - GET new-image
@@ -7,5 +7,5 @@ jobs:
   - name : deployToEcstest1
     type: ecsDeploy
     steps:
-      - GET ecstest5
+      - GET ecstest6
       - PUT shipnew
