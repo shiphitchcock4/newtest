@@ -2,7 +2,7 @@ jobs:
   - name: ecstest1
     type: manifest
     steps:
-      - GET mew-image
+      - GET new-image
       - PUT shipnew
 
   
