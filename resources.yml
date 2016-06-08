@@ -14,7 +14,7 @@ resources:
       name : "default" #name of the cluster we are deploying
       region: "us-west-2"
       
-  - name: new-image12
+  - name: new-image123
     type: image
     integration: ship4-docker
     source:
