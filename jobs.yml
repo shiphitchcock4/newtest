@@ -7,4 +7,5 @@ jobs:
   - name : deployToEcstest1
     type: ecsDeploy
     steps:
+      - GET ecstest1
       - PUT shipnew
