@@ -5,7 +5,7 @@ jobs:
       - GET newre1
       - GET newre3
 
-  - name : deployToEcs4
+  - name : deployToEcs5
     type: ecsDeploy
     steps:
       - GET newec1
