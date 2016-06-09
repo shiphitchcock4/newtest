@@ -5,7 +5,7 @@ jobs:
       - GET re1
       - GET re3
 
-  - name : deployToEcstesting12
+  - name : deployToEcstesting13
     type: ecsDeploy
     steps:
       - GET ec1
