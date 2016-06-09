@@ -1,12 +1,12 @@
 jobs:
-  - name: ec1
+  - name: newec1
     type: manifest
     steps:
-      - GET re1
-      - GET re3
+      - GET newre1
+      - GET newre3
 
-  - name : deployToEcstesting13
+  - name : deployToEcs34
     type: ecsDeploy
     steps:
-      - GET ec1
-      - GET re2
+      - GET newec1
+      - GET newre2
