@@ -1,5 +1,5 @@
 resources:
-  - name: 10reso1
+  - name: reso101
     type: image
     integration: ship4-docker
     source:
@@ -7,14 +7,14 @@ resources:
       isPull: false
       tag: latest
 
-  - name: 10reso2
+  - name: reso102
     type: ecsCluster
     integration: ship-awsnew
     source:
       name : "default" #name of the cluster we are deploying
       region: "us-west-2"
       
-  - name: 10reso3
+  - name: reso103
     type: image
     integration: ship4-docker
     source:
