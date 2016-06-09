@@ -1,12 +1,12 @@
 jobs:
-  - name: ecstest6
+  - name: ec1
     type: manifest
     steps:
-      - GET new-image
-      - GET new-image12
+      - GET re1
+      - GET re3
 
-  - name : deployToEcstest1
+  - name : deployToEcstesting12
     type: ecsDeploy
     steps:
-      - GET ecstest6
-      - PUT shipnew
+      - GET ec1
+      - GET re2
