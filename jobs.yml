@@ -1,12 +1,12 @@
 jobs:
-  - name: newec1
+  - name: ecs10
     type: manifest
     steps:
-      - GET newre1
-      - GET newre3
+      - GET reso101
+      - GET reso103
 
-  - name : deployToEcs6
+  - name : deployToEcs10
     type: ecsDeploy
     steps:
-      - GET newec1
-      - GET newre2
+      - GET ecs10
+      - GET reso102
