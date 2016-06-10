@@ -1,5 +1,5 @@
 resources:
-  - name: reso101
+  - name: resource101
     type: image
     integration: ship4-docker
     source:
@@ -7,7 +7,7 @@ resources:
       isPull: false
       tag: latest
 
-  - name: reso102
+  - name: resource102
     type: ecsCluster
     integration: ship-awsnew
     source:
