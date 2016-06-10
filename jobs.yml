@@ -3,7 +3,7 @@ jobs:
     type: manifest
     steps:
       - GET reso101
-      - GET reso103
+      
 
   - name : deployToEcs10
     type: ecsDeploy
