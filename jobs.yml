@@ -8,5 +8,5 @@ jobs:
   - name : deployecs101
     type: ecsDeploy
     steps:
-      - GET ecstest101
+      - GET ecstest101 
       - GET resource102
