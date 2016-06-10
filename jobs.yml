@@ -1,5 +1,5 @@
 jobs:
-  - name: ecstest10
+  - name: ecstest101
     type: manifest
     steps:
       - GET resource101
