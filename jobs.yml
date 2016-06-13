@@ -1,5 +1,5 @@
 jobs:
-  - name: ecstest101
+  - name: ecstestnew1
     type: manifest
     steps:
       - GET resource101
@@ -8,5 +8,5 @@ jobs:
   - name : deployecs101
     type: ecsDeploy
     steps:
-      - GET ecstest101 
+      - GET ecstestnew1
       - GET resource102
