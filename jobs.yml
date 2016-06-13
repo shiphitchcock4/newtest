@@ -1,12 +1,12 @@
 jobs:
-  - name: ecstestnew1
+  - name: ecstestenvreso1
     type: manifest
     steps:
-      - GET resource101
+      - GET: envreso1
       
 
-  - name : deployecs101
+  - name : deployecsenv
     type: ecsDeploy
     steps:
-      - GET ecstestnew1
-      - GET resource102
+      - GET: ecstestenvreso1
+      - GET: envreso2
