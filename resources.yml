@@ -1,5 +1,5 @@
 resources:
-  - name: resopro1
+  - name: envreso1
     type: image
     integration: ship4-docker
     source:
@@ -7,7 +7,7 @@ resources:
       isPull: false
       tag: latest
 
-  - name: resopro2
+  - name: envreso2
     type: ecsCluster
     integration: ship-awsnew
     source:
