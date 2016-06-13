@@ -9,4 +9,5 @@ jobs:
     type: manifest
     steps:
       - GET: ecstestenvreso1
+      - GET: envreso2
       
