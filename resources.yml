@@ -3,7 +3,15 @@ resources:
     type: image
     integration: ship4-docker
     source:
-      name: "shiphitchcock4/hitchcock4_revarthi"
+      name: "shiphitchcock4/hitchcock4_sample_node"
+      isPull: false
+      tag: latest
+      
+  - name: envreso2
+    type: image
+    integration: ship4-docker
+    source:
+      name: "itchcock4/hitchcock4_revarthi"
       isPull: false
       tag: latest
 
