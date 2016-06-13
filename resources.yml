@@ -3,13 +3,8 @@ resources:
     type: image
     integration: ship4-docker
     source:
-      name: "shiphitchcock4/hitchcock4_sample_node"
+      name: "shiphitchcock4/hitchcock4_sample_nodenew"
       isPull: false
       tag: latest
 
-  - name: envreso2
-    type: ecsCluster
-    integration: ship-awsnew
-    source:
-      name : "default" #name of the cluster we are deploying
-      region: "us-west-2"
+ 
